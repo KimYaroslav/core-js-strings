@@ -345,7 +345,6 @@ function isPalindrome(str) {
  */
 function findLongestWord(sentence) {
   const sArr = sentence.split(' ');
-  console.log(sArr);
   let longestWord = '';
   for (let i = 0; i < sArr.length; i += 1) {
     if (sArr[i].length > longestWord.length) {
@@ -461,7 +460,6 @@ function unbracketTag(str) {
  *   'info@gmail.com' => ['info@gmail.com']
  */
 function extractEmails(str) {
-  console.log(str.split(';'));
   return str.split(';');
 }
 
